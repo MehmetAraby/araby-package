@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "target": "ES2024",
+        "module": "CommonJS",
+        "esModuleInterop": true,
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "noImplicitAny": true,
+        "skipLibCheck": true,
+        "baseUrl": "./",
+        "paths": {
+            "@/functions/*": ["./src/functions/*.ts"]
+        }
+    }
+}
